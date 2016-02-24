@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Staff">
+      <UniqueIdentifier>{7f626446-76b0-4537-8e9e-8ae329d5212b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Table">
+      <UniqueIdentifier>{da768ba6-c96e-4309-8a8c-7ddfaaad65fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{54704bba-0465-4cd4-a6ee-c08960d025a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Waiter">
+      <UniqueIdentifier>{922a590b-26bd-47df-9f50-d2a9c9506a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Glb_putstring">
+      <UniqueIdentifier>{fea63bba-f4da-475b-9b6d-a312463e4bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Admin">
+      <UniqueIdentifier>{62708265-bf2e-4e92-b311-1da8f5d084b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manage">
+      <UniqueIdentifier>{66ae9c0d-0a6f-40a0-992b-61a0c40f7358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log_in">
+      <UniqueIdentifier>{cb6b22a4-9d3c-4174-97a4-331030962425}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Staff\staff.c">
+      <Filter>Staff</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\Table.c">
+      <Filter>Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Menu.c">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Waiter\Order.c">
+      <Filter>Waiter</Filter>
+    </ClCompile>
+    <ClCompile Include="Waiter\Waiter.c">
+      <Filter>Waiter</Filter>
+    </ClCompile>
+    <ClCompile Include="Glb_putstring\Glb_putstring.c">
+      <Filter>Glb_putstring</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin\Admin.c">
+      <Filter>Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="Manage\Manage.c">
+      <Filter>Manage</Filter>
+    </ClCompile>
+    <ClCompile Include="Log_in\Log_in.c">
+      <Filter>Log_in</Filter>
+    </ClCompile>
+    <ClCompile Include="File\File.c" />
+    <ClCompile Include="List\List.c" />
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Staff\staff.h">
+      <Filter>Staff</Filter>
+    </ClInclude>
+    <ClInclude Include="Table\Table.h">
+      <Filter>Table</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Waiter\Order.h">
+      <Filter>Waiter</Filter>
+    </ClInclude>
+    <ClInclude Include="Waiter\Waiter.h">
+      <Filter>Waiter</Filter>
+    </ClInclude>
+    <ClInclude Include="Glb_putstring\Glb_putstring.h">
+      <Filter>Glb_putstring</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin\Admin.h">
+      <Filter>Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="Manage\Manage.h">
+      <Filter>Manage</Filter>
+    </ClInclude>
+    <ClInclude Include="Log_in\Log_in.h">
+      <Filter>Log_in</Filter>
+    </ClInclude>
+    <ClInclude Include="File\File.h" />
+    <ClInclude Include="List\List.h" />
+  </ItemGroup>
+</Project>
